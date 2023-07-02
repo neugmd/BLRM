@@ -6,6 +6,14 @@ Pytorch implementation of Bayesian Statistics Guided Label Refurbishment Mechani
 > Results: Comprehensive experiments on both synthetic noisy images (public OCT & Messidor datasets) and real-world noisy images (ANIMAL-10N) demonstrate that BLRM refurbishes the noisy labels selectively, curbing the adverse effects of noisy data. Also, the anti-noise BLRMs integrated with DNNs are effective at different noise ratio and are independent of backbone DNN architectures. In addition,BLRM is superior to state-of -the-art comparative methods of anti-noise.
 > Conclusions: These investigations indicate that the proposed BLRM is well capable of mitigating label noise in medical image classification tasks.
 
+## Installation
+
+Install the dependencies listed in the `requirements.txt` file.
+
+```
+pip install -r requirements.txt
+```
+
 ## Citing this paper
 
 If you use BLRM in your research, please use the following BibTeX entry.
