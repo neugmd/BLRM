@@ -1,5 +1,0 @@
-numpy
-opencv-python
-PyYAML
-scipy
-taichi
